@@ -1,0 +1,61 @@
+/* Zerando a pagina do navegador*/
+*{
+    margin: 0px;
+}
+
+#estrutura{
+    background-color: white; /*cor de fundo*/
+    width: 90%; /*largura*/
+    margin-left: auto;/* margem a esquerda*/
+    margin-right: auto;/* marge a direita */
+}
+#estrutura #titulo{
+    background-image: url("../imagens/cafe2.jpg"); /*imagem dentro do título*/
+    background-position: -400px -380px;/* posisção x, y*/
+    color: white;
+    font-size: 15pt;
+    font-family: Arial;
+    padding-top: 10px; /* espaçamento no topo*/
+    padding-left: 10px;/* espaçamento a esquerda*/
+    height: 350; /* altura */
+}
+/* cirnado uma classe no css, chamada título*/
+.titulo{
+    margin-top: 400px;
+}
+p{
+    text-align: justify; /*parágrafo*/
+    text-indent: 20px;/* recuo de parágrafo*/
+    font-family: Century Gothic;
+    font-size: 14pt;
+}
+#estrutura #menu ul{
+    padding: 0px;/* espaçamento */
+}
+#estrutura #menu li{
+    /* retira as marca marcador*/
+    list-style: none;
+    /* alinhar links na horizontal*/
+    display: inline-block;
+    width: 239px;
+    text-align: center;
+    padding: 0px 0px;
+}
+#estrutura #menu a{
+    /* a href*/
+    font-family: Arial;
+    font-size: 10pt;
+    text-decoration: none;
+    color: #800;
+    background-color: #ff8;
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0px;
+}
+#estrutura #menu a:hover{ /*passar o mouse sobre o elemento*/
+    background-color: #800;
+    color: white;
+}
+#estrutura #menu a.atual{/*item de menu selecionado*/
+    background-color: #ff9900;
+}
