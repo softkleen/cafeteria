@@ -59,3 +59,30 @@ p{
 #estrutura #menu a.atual{/*item de menu selecionado*/
     background-color: #ff9900;
 }
+#estrutura #conteudo h2{
+    font-family: arial;
+    font-size: 14pt;
+    padding: 10px;
+}
+/*formatação para o texto */
+#estrutura #conteudo .textohome{
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    line-height: 14pt;
+    padding-left: 20px;
+}
+#rodape {
+    padding: 20px 0px; font-family: arial; background-color: #800;
+    color: #fff; height: 60px; bottom: 0;
+    width: 100%; text-align: center;
+}
+#estrutura #conteudo .imghome img{
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+}
+#estrutura #conteudo .imghome{text-align: center;}
+
+/*forçando o redapé para baixo*/
+.abaixar{clear: both;}
+
