@@ -11,7 +11,7 @@
 }
 #estrutura #titulo{
     background-image: url("../imagens/cafe2.jpg"); /*imagem dentro do título*/
-    background-position: -400px -380px;/* posisção x, y*/
+    background-position: -400px -380px;/* posição x, y*/
     color: white;
     font-size: 15pt;
     font-family: Arial;
@@ -19,7 +19,7 @@
     padding-left: 10px;/* espaçamento a esquerda*/
     height: 350; /* altura */
 }
-/* cirnado uma classe no css, chamada título*/
+/* criando uma classe no css, chamada título */
 .titulo{
     margin-top: 400px;
 }
@@ -56,7 +56,7 @@ p{
     background-color: #800;
     color: white;
 }
-#estrutura #menu a.atual{/*item de menu selecionado*/
+#estrutura #menu a.atual{/* item de menu selecionado */
     background-color: #ff9900;
 }
 #estrutura #conteudo h2{
@@ -64,7 +64,7 @@ p{
     font-size: 14pt;
     padding: 10px;
 }
-/*formatação para o texto */
+/* formatação para o texto */
 #estrutura #conteudo .textohome{
     font-family: 'Times New Roman';
     font-size: 14pt;
@@ -83,6 +83,6 @@ p{
 }
 #estrutura #conteudo .imghome{text-align: center;}
 
-/*forçando o redapé para baixo*/
+/* forçando o redapé para baixo */
 .abaixar{clear: both;}
 
