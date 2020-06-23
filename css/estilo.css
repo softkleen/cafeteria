@@ -59,6 +59,17 @@ p{
 #estrutura #menu a.atual{/* item de menu selecionado */
     background-color: #ff9900;
 }
+header{
+}
+main{
+}
+.conteudo{
+/* estilo comum em conteúdo de todas as páginas*/
+    
+}
+.conteudo-cafe{/* página cafe.html*/
+/* estilo específico para div conteúdo da página cafe.html*/
+}
 #estrutura #conteudo h2{
     font-family: arial;
     font-size: 14pt;
